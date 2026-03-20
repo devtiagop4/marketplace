@@ -15,28 +15,31 @@ class UserSeeder extends Seeder
     {
         DB::table('users')->insert([
             [
-                'name' => 'Maykon Silveira',
-                'username' => 'msflix',
-                'email' => 'cursos@maykonsilveira.com.br',
+                'name' => 'Santiago Fernandes',
+                'username' => 'tiago',
+                'email' => 'tiagofichasf@gmail.com',
                 'role' => 'admin',
                 'status' => 'active',
                 'password' => bcrypt('password')
+
             ],
             [
-                'name' => 'Vendedor vendor',
-                'username' => 'vendor',
-                'email' => 'vendedor@maykonsilveira.com.br',
+                'name' => 'Vendedor Fernandes',
+                'username' => 'vende',
+                'email' => 'tiagospp4@gmail.com',
                 'role' => 'vendor',
                 'status' => 'active',
                 'password' => bcrypt('password')
+
             ],
             [
-                'name' => 'Cliente user',
-                'username' => 'user',
-                'email' => 'cliente@maykonsilveira.com.br',
+                'name' => 'user Fernandes',
+                'username' => 'usuario',
+                'email' => 'tiagosppq@gmail.com',
                 'role' => 'user',
                 'status' => 'active',
                 'password' => bcrypt('password')
+
             ]
         ]);
     }
