@@ -18,7 +18,7 @@ class UserSeeder extends Seeder
             'name' => 'Santiago Fernandes',
             'username' => 'Devti Fernandes',
             'email' => 'tiagospp4@gmail.com',
-            'role' => 'admin',
+             'role' => 'admin',
             'status' => 'active',
             'password' => bcrypt('password')
         ],
